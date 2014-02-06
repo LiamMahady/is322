@@ -11,6 +11,11 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, handheld" />
+        <link rel="stylesheet" type="text/css" href="css/enhanced.css" media="screen and (min-width:40.5em)" />
+        <!--[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" type="text/css" href="enhanced.css" />
+        <![endif]-->
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
@@ -19,7 +24,11 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="product-img" class="product-img">
+	   <figure class="img-container" id="img-container">
+               <img src="img/product_img_1.jpg" alt="Super Ffly T-Shirt"/>
+	   </figure>
+        </div>
         <a href="tel:+1-800-275-2273" title="Call our customer Service">Call 800-888-8888</a>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
