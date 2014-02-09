@@ -1,3 +1,7 @@
+/*****reset*****/
+ol, ul
+	{list-style:none;
+	}
 .product-img
 	{position: relative;
 	text-align:center;
@@ -49,10 +53,30 @@
 	padding:0.5em;
 	width:50%;
 	}
+.related-products li a
+	{display:block;
+	border:1px solid #b0b3ad;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	-o-border-radius:0.5em;
+	-ms-border-radius:0.5em;
+	border-radius:0.5em;
+	-webkit-transition: all 0.3s ease-out;
+	}
+.related-products li a:hover, .related-products li a:focus
+	{border-color:#fff;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	}
 .related-products li img
 	{display:block;
 	width:100%;
 	}
 .related-products li:last-child
 	{margin:0;
+	}
+/*****mobile queries*****/
+@media screen and (min-width:28.75em)
+	{.related-products li
+		{width:33.3333333%;
+		}
 	}
