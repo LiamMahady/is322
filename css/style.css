@@ -23,3 +23,36 @@
 	-o-box-sizing:border-box;
 	box-sizing:border-box;
 	}
+/*****related products*****/
+.related-list
+	{position:relative;
+	}
+.related-products
+	{position:relative;
+	border-top:1px solid #808080;
+	border-top:1px solid rgba(255,255,255,0.5);
+	border-bottom:1px solid #b0b3bad;
+	border-bottom:1px solid rgba(0,0,0,0.1);
+	}
+.related-products ul
+	{magin:0 -.5em;
+	position:relative;
+	z-index:1;
+	left:0;
+	}
+.related-products li
+	{float:left;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	padding:0.5em;
+	width:50%;
+	}
+.related-products li img
+	{display:block;
+	width:100%;
+	}
+.related-products li:last-child
+	{margin:0;
+	}

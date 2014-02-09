@@ -5,6 +5,14 @@
 	height:auto;
 	margin-top:4.8em;
 	}
+/***related***/
+.related-products
+	{clear:both;
+	border:0;
+	}
+.related-products li
+	{width:16.6666667%;
+	}
 /*****end structure*****/
 
 @media screen and (min-width:40.5em) and (max-width:60em)
