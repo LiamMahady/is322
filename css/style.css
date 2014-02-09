@@ -2,6 +2,33 @@
 ol, ul
 	{list-style:none;
 	}
+/*****end reset*****/
+/*****structure*****/
+header[role="banner"]
+	{position:relative;
+	background:#111;
+	background:-moz-linear-gradient(top, #111 0%, #222 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#111), color-stop(100%,#222));
+	background:-webkit-linear-gradient(top,#111 0%,#222 100%);
+	background:-o-linear-gradient(top,#111 0%,#222 100%);
+	background:-ms-linear-gradient(top,#111 0%,#222 100%);
+	background:linear-gradient(top,#111 0%,#222 100%);
+	}
+header[role="banner"] a:hover, header[role="banner"] a:focus
+	{color:#fff;
+	background-image:-webkit-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	background-image:-moz-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	background-image:-ms-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	background-image:-o-radial-gradient(ellipse closest-side, rgba(255,255,255,0.1), rgba(255,255,255,0));
+	}
+.logo
+	{float:left;
+	margin:0.35em 0 0.25em 0.7em;
+	}
+.logo a, .logo img
+	{width:100px;
+	height:19px;
+	}
 .product-img
 	{position: relative;
 	text-align:center;
@@ -27,7 +54,7 @@ ol, ul
 	-o-box-sizing:border-box;
 	box-sizing:border-box;
 	}
-/*****related products*****/
+/***related products***/
 .related-list
 	{position:relative;
 	}
@@ -74,9 +101,11 @@ ol, ul
 .related-products li:last-child
 	{margin:0;
 	}
+/*****end structure*****/
 /*****mobile queries*****/
 @media screen and (min-width:28.75em)
 	{.related-products li
 		{width:33.3333333%;
 		}
 	}
+/*****end mobile queries*****/
