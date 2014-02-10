@@ -1,6 +1,17 @@
 /*****reset*****/
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li, form, fieldset, legend, label, table, header, footer, nav, section
+	{margin:0;
+	padding:0;
+	border:0;
+	}
 ol, ul
 	{list-style:none;
+	}
+header, footer, nav, section, article, hgroup, figure
+	{display:block;
+	}
+legend
+	{display:none;
 	}
 /*****end reset*****/
 /*****structure*****/
@@ -13,6 +24,16 @@ header[role="banner"]
 	background:-o-linear-gradient(top,#111 0%,#222 100%);
 	background:-ms-linear-gradient(top,#111 0%,#222 100%);
 	background:linear-gradient(top,#111 0%,#222 100%);
+	}
+header[role="banner"] > div
+	{max-width:65em;
+	margin:0 auto;
+	overflow:hidden;
+	text-align:left;
+	position:relative;
+	-webkit-animation: fadein 0.4s ease-out 1;
+	-moz-animation: fadein 0.4s ease-out 1;
+	-ms-animation: fadein 0.4s ease-out 1;
 	}
 header[role="banner"] a:hover, header[role="banner"] a:focus
 	{color:#fff;
