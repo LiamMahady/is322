@@ -118,6 +118,22 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 	{display:inline-block;
 	color:#9d0000;
 	}
+.content
+	{position:relative;
+	text-aling:left;
+	overflow:hidden;
+	text-shadow:0 1px 0 #fff;
+	-webkit-animation:fadein 0.4s ease-out 1;
+	-moz-animation:fadein 0.4s ease-out 1;
+	-ms-animation:fadein 0.4s ease-out 1;
+	animation:fadein 0.4s ease-out 1;
+	}
+.content img
+	{-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	-o-border-radius:0.5em;
+	border-radius:0.5em;
+	}
 /***product images***/
 .product-main
 	{overflow:hidden;
@@ -280,6 +296,54 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 .related-products li:last-child
 	{margin:0;
 	}
+/***end related products***/
+/***reviews***/
+.reviews header h2
+	{display:inline-block;
+	}
+.reviews
+	{position:relative;
+	border-top:1px solid #808080;
+	border-top:1px solid rgba(255,255,255,0.5);
+	}
+.reviews-list
+	{border-top:1px solid #b0b3ad;
+	border-top:1px solid rgba(0,0,0,0.2);
+	margin-bottom:1em;
+	}
+.reviews-list > li
+	{overflow:hidden;
+	padding:2em 0;
+	border-top:1px solid rgba(255,255,255,0.5);
+	border-bottom:1px solid #b0b3ad;
+	border-bottom:1px solid rgba(0,0,0,0.2);
+	}
+.reviews-list .star
+	{margin-left:0;
+	}
+.reviews-list img
+	{max-width: 4em;
+	max-height:4em;
+	border:1px solid #b0b3ad;
+	float:left;
+	padding:0;
+	margin:0 1em 1em 0;
+	-moz-border-radius:0.5em;
+	-webkit-border-radius:0.5em;
+	-o-border-radius:0.5em;
+	-ms-border-radius:0.5em;
+	border-radius:0.5em;
+	}
+.review-meta
+	{font-size:0.8em;
+	}
+.review-content
+	{clear:left;
+	}
+.review-content p:last-child
+	{margin:0;
+	}
+/***end reviews***/
 /*****end structure*****/
 /*****mobile queries*****/
 @media screen and (min-width:28.75em)
