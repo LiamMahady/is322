@@ -17,8 +17,8 @@ legend
 /*****global*****/
 body
 	{font:100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
-	color:#000;
-	background:url(img/bg2.png) #fff;
+	color: #000;
+	background: url(img/bg2.png);
 	text-align:center;
 	}
 a
@@ -220,6 +220,13 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 	}
 /***end share***/
 /***auxiliary content***/
+.aux
+	{background:#dcdfd8;
+	background:rgba(0,0,0,0.1);
+	border-top:1px solid #808080;
+	border-top:1px solid rgba(255,255,255,0.5);
+	overflow:hidden;
+	}
 .aux header a.open:after
 	{content:"-";
 	}
