@@ -21,6 +21,10 @@
 	height:auto;
 	margin-top:4.8em;
 	}
+/***aux content***/
+.aux header a:after, .aux header a.open:after
+	{content:"";
+	}
 /***related***/
 .related-products
 	{clear:both;
