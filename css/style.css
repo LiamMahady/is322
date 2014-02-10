@@ -18,7 +18,7 @@ legend
 body
 	{font:100%/1.5 'Gill Sans', 'Droid Sans', 'Calibri', 'Lucida Grande', 'Trebuchet MS', 'Helvetica Neue', 'Arial', sans-serif;
 	color:#000;
-	background:url(images/bg2.png) #fff;
+	background:url(img/bg2.png) #fff;
 	text-align:center;
 	}
 a
@@ -159,9 +159,9 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 	{overflow:hidden;
 	display:inline-block;
 	margin:0 auto;
-	text-align:cneter;
+	text-align:center;
 	}
-.prduct-img nav li
+.product-img nav li
 	{display:inline-block;
 	margin:0 0.2em;
 	border:1px solid #d7dad3;
@@ -169,15 +169,27 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 	-webkit-border-radius:0.5em;
 	-o-border-radius:0.5em;
 	-ms-border-radius:0.5em;
-	-border-radius:0.5em;
+	border-radius:0.5em;
 	-webkit-transition:all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition:all 0.3s ease-out;
 	-o-transition:all 0.3s ease-out;
 	transition:all 0.3s ease-out;
 	}
+.product-img nav li:hover, .product-img nav li:focus
+	{border-color:#b0b3ad;
+	}
+.product-img nav li.active
+	{border-color:#9d0000;
+	}
+.product-img nav li:last-child
+	{margin:0;
+	}
 .product-img nav a 
 	{display:block;
+	}
+.product-img nav a.active
+	{border-color:#81d8d0;
 	}
 .product-img nav li
 	{min-width:4em;
@@ -185,7 +197,7 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 	}
 .product-img nav img
 	{display:block;
-	width:3em;
+	width:4em;
 	height:auto;
 	}
 /***share***/
