@@ -72,6 +72,16 @@ header[role="banner"] a:hover, header[role="banner"] a:focus
 .queryselectorall .search, .queryselectorall [role="banner"] .nav
 	{display:none;
 	}
+.star
+	{display:inline-block;
+	margin:0 0.5em;
+	font-size:0.9em;
+	}
+.star li
+	{display:inline-block;
+	color:#9d0000;
+	}
+/***product images***/
 .product-main
 	{overflow:hidden;
 	max-width:63em;
