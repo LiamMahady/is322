@@ -15,6 +15,9 @@
 	{width:120px;
 	height:auto;
 	}
+.nav-anchors
+	{display:none;
+	}
 .product-img
 	{float:left;
 	width:50%;
@@ -48,4 +51,8 @@
 		{margin-left:7em;
 		}
 	}
-
+/* For IE7 which doesn't support display:inline-block
+label, input, textarea, .nav-anchors li, .nav li, .price, .star, .star li, .product-img nav, .product-img nav li, .product-utils a, .reviews header h2, .footer li
+	{zoom:1;
+	*display:inline;
+	}
