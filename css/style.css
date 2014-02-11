@@ -465,11 +465,35 @@ header[role="banner"] .nav
 	border-top:1px solid rgba(255,255,255,0.5);
 	overflow:hidden;
 	}
+.aux header
+	{cursor:pointer;
+	max-width:65em;
+	margin:0 auto;
+	}
+.aux header a
+	{color:#000;
+	display:block;
+	padding:0.6em 1em;
+	position:relative;
+	}
+.aux header a:after 
+	{content: "+";
+	position: absolute;
+	top: 0.37em;
+	right: 1em;
+	font-size: 1.4em;
+	color: #9d0000;
+	}
 .aux header a.open:after
 	{content:"-";
 	}
 .aux header a.disabled
 	{cursor:default;
+	}
+[role="tabpanel"] 
+	{max-width: 63em;
+	margin: 0 auto;
+	padding: 0 1em 1em;
 	}
 /***related products***/
 .related-list
