@@ -159,6 +159,10 @@ header[role="banner"] .nav
 	{.product-img
 		{width:60%;
 		}
+	.product-main > header, .product-desc, .product-form, .product-utils, .product-description
+		{margin-left:60%;
+		padding-left:1em;
+		}
 	}
 @media screen and (min-width:60em)
 	{.product-img
