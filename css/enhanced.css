@@ -1,3 +1,12 @@
+h1
+	{font-size:2em;
+	}
+h2
+	{font-size:1.6em;
+	}
+.btn
+	{display:inline-block;
+	}
 /*****structure*****/
 .logo
 	{margin:0;
@@ -17,6 +26,27 @@
 	}
 .nav-anchors
 	{display:none;
+	}
+.nav
+	{border-left:1px solid #333;
+	border-right:1px solid #333;
+	}
+header[role="banner"] .nav
+	{float:left;
+	clear:none;
+	margin:0;
+	border-top:0;
+	}
+.search
+	{border:0;
+	padding:0;
+	position:absolute;
+	top:0.8em;
+	right:1em;
+	width:10em;
+	}
+.queryselectorall .search, .queryselectorall [role="banner"] .nav
+	{display:block;
 	}
 .product-img
 	{float:left;
